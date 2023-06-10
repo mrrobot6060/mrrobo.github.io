@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Área de Navegação</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f1f1f1;
+            padding: 10px;
+            z-index: 9999;
+        }
+
+        .navigation {
+            text-align: center;
+        }
+
+        .navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        .navigation li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .navigation a:hover {
+            background-color: #ddd;
+        }
+
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <video id="video-background" autoplay loop muted>
+        <source src="VID_268391220_234317_008.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="https://t.me/Mrrobot01947">©Bot</a></li>
+                <li><a href="extensão.html">®ler</a></li>
+                <li><a href="meu_livro.html">©Livros</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0">®Curso</a></li>
+                <li><a href="saudacao.html">®Parceira</a></li>
+                <li><a href="informação.html">©Projeto</a></li>
+                <li><a href="navegação0.html">®voltar</a></li>
+                <!-- Adicione mais itens de navegação, se necessário -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
